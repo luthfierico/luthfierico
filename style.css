@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
+}
+
+.nav li{
+    padding: 5px;
+}
+
+.data-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+}
+
+.data-list a{
+    color: whitesmoke;
+}
+
+.data-list li{
+display: inline-block;
+margin-left: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list {
+    display: none;
+    background-color: black;
+    position: absolute;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.list li{
+    display: block;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.wisata:hover .list{
+display: block;
+}
+
+.data-list a{
+    text-decoration: none;
+}
+
+
+.nav li:hover {
+    background-color: orangered;
+}
+
+/* nav selesai */
+
+.header {
+display: flex;
+}
+
+.des-header {
+    width: 45%;
+    margin: auto;
+}
+
+.des-header h1{
+    font-weight: 800;
+    font-size: 6rem;
+    width: 50%;
+}
+
+.gambar{
+width: 40%;
+height: 100vh;
+}
+
+.gambar img{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* bg-card */
+.bg-card {
+    width: 90%;
+padding-bottom: 50vh;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: auto;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.gambar-card {
+    width: 200px;
+    height: 200px;
+}
+
+.gambar-card img{
+    height: 100%;
+    width: 100%;
+}
+
+.des-card {
+    padding: 5px;
+}
+
+.bg-card a{
+    text-decoration: none;
+}
